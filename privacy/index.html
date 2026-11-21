@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FocusReels privacy policy</title>
+<style>
+:root{color-scheme:light dark;--fg:#1a1a1a;--bg:#fff;--muted:#555}
+@media (prefers-color-scheme:dark){:root{--fg:#eee;--bg:#111;--muted:#aaa}}
+body{font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;color:var(--fg);background:var(--bg);max-width:720px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.8em;line-height:1.2} h2{margin-top:2em} code{font-size:.9em} li{margin:.25em 0}
+</style></head><body>
+<h1>FocusReels privacy policy</h1>
+<p>Effective date: the date of the first public release on Google Play.</p>
+<p>FocusReels helps you count and limit short videos in Instagram (Reels), YouTube (Shorts), Facebook (Reels), Snapchat (Spotlight) and TikTok. It can also keep you out of other apps you block yourself for a while (App block). It works entirely on your phone. <strong>We don't collect, store on any server, sell or share any of your data.</strong> We have no servers, no accounts and no analytics.</p>
+<h2>What the app uses, and why</h2>
+<p><strong>Accessibility service (only if you agree on the disclosure screen).</strong></p>
+<ul><li>
+The service looks at Instagram, YouTube, Facebook, Snapchat and TikTok (just the ones you choose).
+</li><li>
+<strong>App block:</strong> while you have blocked another app yourself (for example a game, for 2 hours), the service also notices when that app comes to the front. For those apps it reads only which app is in front (its package name), never its screen, and covers it with FocusReels' own block screen, whose button takes you to your home screen. It never blocks your phone, contacts or messages apps, Android Settings, the Play Store, your home screen or FocusReels itself.
+</li><li>
+It never looks at any other app.
+</li><li>
+It reads the screen layout of the watched apps (which part is on screen, such as a Reels player or your chats: screen element names and their accessibility labels, never the text of your messages) to:
+<ul><li>
+count the Reels, Shorts and Spotlight videos you watch;
+</li><li>
+close the player when one of your own rules applies (bedtime lock, daily limit, focus session);
+</li></ul>
+</li><li>
+<strong>What is on your screen is never saved, logged or sent anywhere.</strong> That includes text, messages, names and videos.
+</li><li>
+When the service sees a player, it uses a short-lived fingerprint in memory to avoid counting the same reel twice. The fingerprint is discarded when you leave.
+</li><li>
+The only actions it ever takes are pressing Back, and showing FocusReels' own block screens. It never taps, types or scrolls for you.
+</li></ul>
+<p><strong>Usage access (optional).</strong></p>
+<ul><li>
+Shows how much time you spent in the watched apps over the past days, so the app can suggest a daily goal.
+</li><li>
+Measures app time if you choose not to turn on the accessibility service.
+</li><li>
+Sorts the App block list so the apps you use most come first. For this, Android gives FocusReels the total time per app for recent days; it is used on your phone, in memory, and never stored or sent.
+</li></ul>
+<p><strong>List of apps on your phone.</strong></p>
+<ul><li>
+To show the App block list with names and icons, FocusReels asks Android for the apps that appear in your launcher. The list is used on your phone only; only the apps you block are saved (in your settings).
+</li></ul>
+<p><strong>Phone clock settings.</strong></p>
+<ul><li>
+FocusReels checks whether your phone's time is set automatically, so locks like strict mode and bedtime keep running on real time if the clock is changed by hand. To do that it keeps, in its private storage (not backed up), one reference point (a time, the time since the phone started, and how many times the phone has restarted) and the size of any manual change.
+</li></ul>
+<p><strong>Notifications (optional).</strong></p>
+<ul><li>
+Used for your bedtime summary, your Sunday summary, and an alert if protection turns off.
+</li><li>
+You can switch each one off in Settings.
+</li></ul>
+<p><strong>Advanced Protection status (Android 16 and later).</strong></p>
+<ul><li>
+FocusReels checks whether Android's Advanced Protection mode is on, because that mode turns off apps like ours.
+</li><li>
+It uses this only to tell you why protection stopped.
+</li></ul>
+<h2>What is stored on your phone</h2>
+<p>All of this stays in FocusReels' private storage on your phone:</p>
+<ul><li>
+<strong>Counts:</strong> reels per app per day, focus sessions (start and end time), detection health counters (how often detection worked, per app per day), and which days protection was running (so a day with 0 reels counts as a real 0).
+</li><li>
+<strong>Versions:</strong> the version numbers of the watched apps, so the app notices when an update breaks detection, and the version of the detection rules in use.
+</li><li>
+<strong>Settings:</strong> your rules (including strict mode and the apps you blocked yourself, by package name), onboarding progress, and which notifications were already sent.
+</li><li>
+<strong>Small counters:</strong> how many short breaks you took today, how many times today a block screen came up, and which cards you saw recently (so they don't repeat).
+</li><li>
+<strong>Your cards:</strong> the block-screen cards you write yourself, and the photo you pick for one, if any. Photos come from Android's photo picker (FocusReels asks for no storage permission), are scaled down and copied into FocusReels' private storage, and are never uploaded. Deleting the card deletes its photo.
+</li><li>
+<strong>Detection rules:</strong> the latest verified rules file FocusReels downloaded (see below).
+</li></ul>
+<p>Nothing else is stored. The data stays until you clear the app's data or uninstall the app, which deletes it.</p>
+<h2>Backups</h2>
+<p>If Android backup is on for your Google account, Android may include FocusReels' counts and settings in your phone's backup. This is handled by Android and Google under your Google account; FocusReels never sees or receives it. Only the counts database and the settings file are included. The settings file holds your rules, the names of the apps you blocked, and the text of your own cards; card photos, small counters and the detection rules are not backed up.</p>
+<h2>What is sent off your phone</h2>
+<p>Nothing about you or how you use your phone.</p>
+<p>FocusReels makes one kind of network request: about once a day (and shortly after the app starts, at most every 6 hours) it downloads the latest <strong>detection rules</strong>, two small public files that describe what the Reels, Shorts and Spotlight screens look like, so detection keeps working when those apps update. The request:</p>
+<ul><li>
+is an HTTPS download of public files from GitHub Pages (<code>vipin11071999.github.io/static-files</code>);
+</li><li>
+carries no account, no identifier, no cookie and no information about your phone or your usage; the app identifies itself only as "FocusReels";
+</li><li>
+like any web request, reveals your IP address to the hosting provider (GitHub). FocusReels has no server of its own and receives nothing.
+</li></ul>
+<p>A downloaded file is used only if its digital signature proves it came from the developer; otherwise the app keeps the rules it already has.</p>
+<p><strong>Things you choose to share.</strong> If you tap Share on a stats card, or send a "Count looks wrong?" report, Android's share sheet opens and you pick the app it goes to. A stats card is an image with your counts. A report contains the FocusReels version, your Android version, the versions of the watched apps and the detection counters, never anything from your screen. FocusReels sends nothing until you pick an app and send it yourself.</p>
+<p>Crash and performance statistics you see on Google Play ("Android vitals") are collected by Google Play itself, only if you allowed usage and diagnostics sharing with Google. FocusReels contains no crash-reporting or analytics code.</p>
+<h2>Children</h2>
+<p>FocusReels is meant for people aged 16 and over. It doesn't knowingly collect information from anyone, because it doesn't collect information at all.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published at the same address, with a new effective date, before the app version it applies to is released.</p>
+<h2>Contact</h2>
+<p>Questions or requests: the developer email address shown on FocusReels' Google Play listing.</p>
+</body></html>
